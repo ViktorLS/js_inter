@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * Person class.
@@ -15,15 +15,15 @@ function Person(name, age, gender) {
   this.gender = gender;
 }
 
-Person.prototype.getName = function() {
+Person.prototype.getName = function () {
   return this.name;
 };
 
-Person.prototype.getAge = function() {
+Person.prototype.getAge = function () {
   return this.age;
 };
 
-Person.prototype.getGender = function() {
+Person.prototype.getGender = function () {
   return this.gender;
 };
 
@@ -44,7 +44,7 @@ function Teacher(name, age, gender, subject) {
 
 Teacher.prototype = Object.create(Person.prototype);
 
-Teacher.prototype.getSubject = function() {
+Teacher.prototype.getSubject = function () {
   return this.subject;
 };
 
@@ -65,24 +65,24 @@ function Student(name, age, gender, marks) {
 
 Student.prototype = Object.create(Person.prototype);
 
-Student.prototype.getMarks = function() {
+Student.prototype.getMarks = function () {
   return this.marks;
 };
 
-const teacher = new Teacher('John Doe', 30, 'male', 'Maths');
-const student = new Student('Jane Miles', 12, 'female', 88);
+const teacher = new Teacher("John Doe", 30, "male", "Maths");
+const student = new Student("Jane Miles", 12, "female", 88);
 
 console.log(
-  'Teacher:',
+  "Teacher:",
   teacher.getName(),
   teacher.getAge(),
   teacher.getGender(),
-  teacher.getSubject(),
+  teacher.getSubject()
 );
 console.log(
-  'Student:',
+  "Student:",
   student.getName(),
   student.getAge(),
   student.getGender(),
-  student.getMarks(),
+  student.getMarks()
 );
