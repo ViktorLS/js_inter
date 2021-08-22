@@ -1,6 +1,7 @@
 # vscode
+
     ctrl+shift+p - commands
-    ctrl+shift+o - 
+    ctrl+shift+o -
     ctrl+shift+e - explorer
     ctrl+shift+f - search
     ctrl+p       - search file
@@ -9,18 +10,13 @@
     alr+->/-< - go back/forward
 
 # emmet
-    nav>ul>li
-    div+p+bq
-    ul>li*5
-    
-    #header <div id="header"></div>
-    form#search.wide <form id="search" class="wide"></form>
-    p[title="Hello world"] <p title="Hello world"></p>
-    a{Click me} <a href="">Click me</a>
 
-
-
-
-
-
-
+```html
+nav>ul>li div+p+bq ul>li*5 #header
+<div id="header"></div>
+form#search.wide
+<form id="search" class="wide"></form>
+p[title="Hello world"]
+<p title="Hello world"></p>
+a{Click me} <a href="">Click me</a>
+```
