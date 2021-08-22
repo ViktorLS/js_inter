@@ -1,7 +1,7 @@
 # vscode
 
     ctrl+shift+p - commands
-    ctrl+shift+o -
+    ctrl+shift+o - @
     ctrl+shift+e - explorer
     ctrl+shift+f - search
     ctrl+p       - search file
