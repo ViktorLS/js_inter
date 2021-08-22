@@ -11,12 +11,14 @@
 
 # emmet
 
-```html
-nav>ul>li div+p+bq ul>li*5 #header
-<div id="header"></div>
-form#search.wide
-<form id="search" class="wide"></form>
-p[title="Hello world"]
-<p title="Hello world"></p>
-a{Click me} <a href="">Click me</a>
+<!-- prettier-ignore -->
+ ```html
+    nav>ul>li
+    div+p+bq
+    ul>li*5
+    
+    #header <div id="header"></div>
+    form#search.wide <form id="search" class="wide"></form>
+    p[title="Hello world"] <p title="Hello world"></p>
+    a{Click me} <a href="">Click me</a>
 ```
