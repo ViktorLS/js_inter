@@ -15,11 +15,11 @@ const person = {
     }, 0);
   },
   arrowLogTimeout: function () {
-    setTimeout(() => console.log(this), 10);
+    setTimeout(() => console.log(this), 1000);
   },
   arrow2LogTimeout: () => {
-    setTimeout(() => console.log(this), 10);
-  },
+    setTimeout(() => console.log(this), 1000);
+  }
 };
 
 log(); // => window
